@@ -21,6 +21,7 @@ strikethrough uses two tildes.~~scratch this~~
 1. first item
 2. second item.
 1. Actual numbers don't matter.
+
 ## unordered list
 ⋅⋅* Unordered sub-list. 
 ⋅⋅1. ordered sub-list. 
@@ -37,7 +38,8 @@ strikethrough uses two tildes.~~scratch this~~
 
 [I'm google with title](https://www.google.com "Google's Homepage")
 
-##### h5 URLs without bracket will be turned into links. For example:
+##### URL
+URLs without bracket will be turned into links. For example:
 http://www.google.com
 
 # Images
