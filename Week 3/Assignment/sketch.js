@@ -1,5 +1,5 @@
 var backgroundColor = 'black';
-var col = 0;
+var col = "rgb(132,144,23)";
 var value = 0;
 
 
