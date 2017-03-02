@@ -17,24 +17,24 @@ function draw() {
     //    }
 
 
-    while (i < width) {
-       i++;
-        console.log(i);
-        fill(random(255), random(255), random(255));
-        ellipse(random(width), random(height), 10, 10);
-    }
+//    while (i < width) {
+//       i++;
+//        console.log(i);
+//        fill(random(255), random(255), random(255));
+//        ellipse(random(width), random(height), 10, 10);
+//    }
 
-    //    for (var i = 0; i < width; i++) {
-    //        console.log(i);
-    //        fill(random(255));
-    //        ellipse(i, height / 2, 10, 10);
-    //
-    //    }
+        for (var i = 0; i < width; i++) {
+            console.log(i);
+            fill(random(255),random(255),random(255));
+            ellipse(i, height / 2, 10, 10);
+    
+        }
 
-    //    for (var i = 0; i < width; i++) {
-    //        console.log(i);
-    //        fill(random(255),random(255),random(255));
-    //        ellipse(random(width), random(height), 10, 10);
-    //
-    //    }
+//        for (var i = 0; i < width; i++) {
+//            console.log(i);
+//            fill(random(255),random(255),random(255));
+//            ellipse(random(width), random(height), 10, 10);
+//    
+//        }
 }
