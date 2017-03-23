@@ -32,5 +32,5 @@
 * for
 * push
 * collideRectCircle
-
+* splice
 

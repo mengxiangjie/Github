@@ -56,7 +56,7 @@ function setup() {
                 width: 0,
                 height: 0,
                 hit: false,
-                color: '#CAF2F5'
+                color: '#B1E9F7'
             }
 
             brick.x = offsetX + c * (brickWidth + brickMargin);
@@ -74,7 +74,7 @@ function setup() {
 
 function draw() {
 
-    background(0);
+    background(77,156,224);
     ballbounce();
     ballmove(start);
     collision();
@@ -165,35 +165,7 @@ function collision() {
     }
 
 
-    //    //collision between bricks and ball
-    //    hit = collideRectCircle(200,100,100,30, ball.x, ball.y, 30);
-    //    
-    //    if(hit == true){
-    //        
-    //        brick.remove();
-    //    }
-
-    // collision between bricks and ball
-    //    hit = collideRectCircle(offsetX + c * (brickWidth + brickMargin), offsetY + r * (brickHeight + brickMargin), brickWidth, brickHeight, ball.x, ball.y, 30);
-    //
-    //    if (hit == true) {
-    //
-    //        print("hit:" + hit);
-    //    }
-
-
-    //    for (var r = 0; r < rows; r++) {
-    //        for (var c = 0; c < columns; c++) {
-    //            var curObject = r + c;
-    //            hit = collideRectCircle(offsetX + c * (brickWidth + brickMargin), offsetY + r * (brickHeight + brickMargin), brickWidth, brickHeight, ball.x, ball.y, 30);
-    //
-    //       if (hit == true) {
-    //
-    //           print("hit:" + hit);
-    //           bricks[curObject].shapeColor = color(0);;
-    //       }
-    //        }
-    //    }
+   
 
     for (var i = 0; i < bricks.length; i++) {
         fill(bricks[i].color);
