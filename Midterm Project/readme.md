@@ -27,8 +27,9 @@
 * Array
 * rect
 * ellipse
-* mousePressed
+* mouseClicked
 * if
 * for
+* collideRectCircle
 
 
