@@ -30,6 +30,7 @@
 * mouseClicked
 * if
 * for
+* push
 * collideRectCircle
 
 
