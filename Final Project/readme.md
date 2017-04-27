@@ -1,36 +1,24 @@
-# Code Plan for Brick Breaker
+# Code Plan for audio speaker
 
-##### For this project, I'm going to make a game called Brick Breaker. Basically, there will be three parts that consists of the game. 
+##### For final project, I decided to make an audio speaker that analyze the music all the way from high frequency to low frequency. 
 
-1. A group of bricks on the upper side of the canvas.
-2. A ball that will be moving around the canvas and break the bricks.
-3. A bar that will be controlled by hovering mouse to catch the ball. 
+Once you click the play botton, the music will start playing and the visualized frequency will show up on the speakers. 
 
-##### There will be a score board which will record the "Highest Score" and "Current Score"
+##### There are three speakers that represent different frequencies. 
+* The red circle represents 151-256 Hz
+* The green circle represents 76-150 Hz
+* The blue circle represents 0-75 Hz
 
-
-### Input
-
-###### Mouse
-* The ball will start moving once I click the mouse.
-* Hover the mouse left and right to move the bar and catch the ball
-
-
-### Output
-
-###### The rectangle bar
-* Moves left
-* Moves right
 
 
 ### Psuedocode 
-* Array
-* rect
-* ellipse
-* mouseClicked
-* if
+* preload
+* fft
+* mousePressed
+* loadImage
 * for
-* push
-* collideRectCircle
-* splice
+* map
+* stroke
+* ellipse
+* if
 
