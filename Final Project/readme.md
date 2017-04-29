@@ -5,9 +5,9 @@
 Once you click the play botton, the music will start playing and the visualized frequency will show up on the speakers. 
 
 ##### There are three speakers that represent different frequencies. 
-* The red circle represents 151-256 Hz
-* The green circle represents 76-150 Hz
-* The blue circle represents 0-75 Hz
+* The red circle represents High frequency
+* The green circle represents medium frequency
+* The blue circle represents low frequency
 
 
 

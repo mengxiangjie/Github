@@ -1,4 +1,3 @@
-//var mic;
 var song;
 
 var button;
@@ -11,7 +10,7 @@ var fft;
 
 function preload() {
     song = loadSound('Guaranteed.mp3');
-img = loadImage("assets/speaker3.png");
+    img = loadImage("assets/speaker3.png");
 
 }
 
@@ -23,7 +22,7 @@ function setup() {
     button = createButton("play");
     button.mousePressed(togglePlay);
     song.play();
-    fft = new p5.FFT(0, 256);
+    fft = new p5.FFT(0,64);
 
 
 
@@ -45,7 +44,7 @@ function togglePlay() {
 }
 
 function draw() {
-    background(0);
+    background(255);
     image(img,0,0);
 
    
@@ -54,7 +53,7 @@ function draw() {
 
         var amp = spectrum[i];
         var y = map(amp, 0, 75, height, 0);
-        stroke('blue');
+        stroke('rgb(35,166,243)');
         strokeWeight(1);
         ellipse(width/1.97, height/1.52, y/7.5,y/7.5);
         
@@ -63,7 +62,7 @@ function draw() {
         ellipse(width/1.97, height/2.68, y/9,y/9);
         
         var y = map(amp, 151, 256, height, 0);
-        stroke('red');
+        stroke('rgb(243,96,80)');
         ellipse(width/1.97, height/5.8, y/18, y/18);
 
         
